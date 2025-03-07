@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html dir="rtl">
     <head>
-         <meta charset="utf-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1">
+             <meta charset="utf-8">
+             <meta name="viewport" content="width=device-width, initial-scale=1">
              <title>ثبت نام </title>
     
-    
-         <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-         <script src="https://kit.fontawesome.com/207df088b9.js" crossorigin="anonymous"></script>
+             <link rel="stylesheet" href="fonts.css">
+             <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+             <script src="https://kit.fontawesome.com/207df088b9.js" crossorigin="anonymous"></script>
+             <style>
+              *{
+                
+               font-family: "IRANSansX";
+                
+              }
+             </style>
    
  
     </head>
@@ -18,11 +25,19 @@
 
 
         <div class="h1 ">
-
-            <a  href="#"   class="back-btn text-decoration-none text-dark lead " style="font-weight: bold;">
-                  &lt
+            <a  href="#"   class="back-btn text-decoration-none text-dark lead " style="font-family:IRANSansX ; width: 24; height: 24;top: 20px;left: 20px;">
+                &lt
+               
+            </a>
+            <a  href="#"   class="back-btn text-decoration-none text-dark lead " style="font-family:IRANSansX ;font-weight: 700;font-size: 17px;">
+                  
                  ورود یا ثبت نام
             </a>
+            
+
+            
+
+
      
         </div>
 
@@ -32,17 +47,20 @@
              <i class="fas fa-mobile-alt text-primary " style="font-size: 80px;"></i>
        </div>
 
-        <div class="d-flex justify-content-center align-items-center">
+        <div class="d-flex justify-content-center align-items-center " >
 
              <span class="">لطفا شماره موبایل خود را وارد نمایید</span>
         </div>
-        <form class="d-flex justify-content-center align-items-center m-3 ">
-           
-            <label for="#number " style="font-weight: bold;" >شماره موبایل</label>
-       
-            <input type="text " class="form-control text-center" style="background-color:#ffffffae;width: 20%; " placeholder="09120000000 " id="number">
+
+        <form class="d-flex flex-column justify-content-center align-items-center m-3">
+            <label for="number" class="text-end fw-bold       m-2">شماره موبایل</label>
+            <input type="text" class="form-control text-center " style="background-color:#0000000D;width: 50%;" placeholder="۰۹۱۲۰۰۰۰۰۰۰" id="number">
         </form>
-    
+
+        <div class="d-flex justify-content-center align-items-center m-3">
+            <button class="btn text-white w-50 " style="background-color:#03AB35;">بعدی</button>
+        </div>
+
     
 
 
